@@ -23,7 +23,7 @@
 
 # 5.如何使用
 - 编写自己的单元测试文件xxx.cpp，然后在xxx.cpp中使用include的预处理语句，包含本仓库中的UnitTestCore.hpp头文件。
-- 使用TEST_CASE定义不同的单元测试用例。
+- 使用TEST_CASE编写不同的单元测试用例。
 - 使用RUN_ALL_TESTS宏启动单元测试的运行。
 - 具体的示例可以参考本仓库下的demo_test.cpp。
 
