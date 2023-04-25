@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "UnitTestCore.hpp"
+#include "unittestcore.hpp"
 
 using namespace std;
 
