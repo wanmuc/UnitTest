@@ -39,7 +39,7 @@ class UnitTestCore {
     std::cout << kGreenBegin << "[==============================] Running " << test_cases_.size() << " test case."
               << kColorEnd << std::endl;
     constexpr int kFilterArgc = 2;
-    for (int i = 0; i < test_cases_.size(); i++) {
+    for (size_t i = 0; i < test_cases_.size(); i++) {
       if (argc == kFilterArgc) {
         // 第二参数时，做用例CaseName来做过滤
         if (not std::regex_search(test_cases_[i]->CaseName(), std::regex(argv[1]))) {
