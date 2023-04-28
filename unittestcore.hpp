@@ -7,9 +7,9 @@
 
 namespace UnitTest {
 
-const char *kGreenBegin = "\033[32m";
-const char *kRedBegin = "\033[31m";
-const char *kColorEnd = "\033[0m";
+static const char *kGreenBegin = "\033[32m";
+static const char *kRedBegin = "\033[31m";
+static const char *kColorEnd = "\033[0m";
 
 class TestCase {
  public:
