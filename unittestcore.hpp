@@ -151,7 +151,7 @@ class UnitTestCore {
 #define ASSERT_FALSE(expr)                                                                                         \
   if ((expr)) {                                                                                                    \
     std::cout << UnitTest::kRedBegin << "assert_false failed at " << __FILE__ << ":" << __LINE__ << ". " << (expr) \
-              << " if true" << right << UnitTest::kColorEnd << std::endl;                                          \
+              << " if true" << UnitTest::kColorEnd << std::endl;                                                   \
     SetResult(false);                                                                                              \
     return;                                                                                                        \
   }
